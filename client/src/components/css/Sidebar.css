@@ -1,0 +1,127 @@
+.sidebar{
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.sidebar .sidebar-top{
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#sidebar-bottom .nav{
+    display: block;
+    padding: 8px 8px 8px 30px;
+    color: #313131;
+    text-decoration: none;
+    border-bottom: 0.1px solid #EEE;
+}
+#sidebar-bottom .nav i{
+    padding-right: 8px;
+}
+#sidebar-bottom .nav:hover{
+    background-color: #352F44;
+    color: #fff;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#active{
+    background-color: #352F44;
+    color: #fff!important;
+    margin-right: 10px;
+    border-radius: 5px;
+    /* margin-left: 0px; */
+}
+#drop, #drop1, #drop2, #drop3, #drop4, #drop5, #drop6{
+    float: right;
+    font-size: 13px;
+    padding-top: 7px;
+}
+
+#submenu .subnav{
+    display: block;
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    border-bottom: 0.1px solid #EEE;
+    font-size: 13px;
+    padding-left: 55px;
+    animation: growDown 500ms ease-in-out forwards;
+    transform-origin: top center;
+    background-color: #352F44;
+    color: #fff;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+#submenu .subnav i{
+    padding-right: 5px;
+}
+
+#submenu .subnav:hover{
+    background-color: #352F44;
+    color: #fff;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: all 2s;
+}
+#submenu{
+    display: none;
+}
+
+#submenu1 .subnav{
+    display: block;
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    border-bottom: 0.1px solid #EEE;
+    font-size: 13px;
+    padding-left: 55px;
+    animation: growDown1 500ms ease-in-out forwards;
+    transform-origin: top center;
+    background-color: #352F44;
+    color: #fff;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+@keyframes growDown1 {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+#submenu1 .subnav i{
+    padding-right: 5px;
+}
+
+#submenu1 .subnav:hover{
+    background-color: #352F44;
+    color: #fff;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: all 2s;
+}
+#submenu1{
+    display: none;
+}
+.i1{
+    height:50px;
+    margin-left: 16px;
+    margin-top: 6px;;
+}

@@ -1,0 +1,91 @@
+.top_header{
+    height: 60px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.form-area .form-group input[type="search"]{
+    margin-top: 12px;
+    height: 35px;
+}
+.icons{
+    display: block;
+    float: right;
+    padding-top: 10px;
+}
+#bell img{
+    margin-right: 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.icons img{
+    cursor: pointer;
+    display: inline-block;
+}
+#profile{
+    height: auto;
+    width: 180px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    position: absolute;
+    right: 0%;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    display: none;
+    animation: growDownnew 500ms ease-in-out forwards;
+    transform-origin: top center;
+    z-index: 9999;
+}
+@keyframes growDownnew {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+#profile .profile-nav{
+    display: block;
+    text-decoration: none;
+    color: #313131;
+    padding: 6px 20px;
+    border-bottom: 0.1px solid #EEE;
+}
+#profile .profile-nav i{
+    padding-right: 5px;
+}
+.card1{
+    height: 80px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.card1 .card1-left{
+    height: 80px;
+    width: 70%;
+    float: left;
+    border-right: 0.1px solid #EEE;
+}
+.card1 .card1-left .num{
+    font-size: 22px;
+    padding: 7px 0px 3px 20px;
+    font-weight: bold;
+    border-bottom: 0.1px solid #EEE;
+}
+.card1 .card1-left .title{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.card1 .card1-right{
+    height: 80px;
+    width: 30%;
+    float: left;
+}
+.card1 .card1-right .card1-icon img{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
